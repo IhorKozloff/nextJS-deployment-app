@@ -26,8 +26,7 @@ const handler = async (req, res) => {
         let client;
 
        const connectionString = process.env.MONGODB_PATH
-    
-//1111111111111111111111
+
        try {
         client = await MongoClient.connect(connectionString)
        } 
